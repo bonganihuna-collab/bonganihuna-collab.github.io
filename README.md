@@ -1,5 +1,7 @@
 # Bongani Huna - Portfolio Website
 
+🌐 **[Visit my portfolio](https://bonganihuna-collab.github.io)**
+
 Welcome to my portfolio website! This is a full-stack showcase of my work as a developer.
 
 ## About
