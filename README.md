@@ -34,6 +34,34 @@ portfolio/
 ```
 
 ## 🚀 Getting Started
+## Skills
+## Desktop Support & IT Troubleshooting
+Diagnose and resolve hardware and software issues efficiently
+Provide first-line technical support and escalate complex issues when required
+Perform system installations, upgrades, and maintenance
+## Operating Systems & Software
+Proficient in Windows OS; basic knowledge of macOS
+Install, configure, and update software applications
+Manage user accounts and system settings
+## Hardware & Devices
+Install and troubleshoot desktops, laptops, printers, and peripherals
+Perform basic hardware repairs and upgrades (RAM, storage, etc.)
+Set up and configure new devices for users
+## Networking Fundamentals
+Basic knowledge of TCP/IP, LAN/Wi-Fi connectivity, and VPN setup
+Troubleshoot network and internet connectivity issues
+## Security & Data Protection
+Perform virus/malware removal and system security checks
+Manage password resets and user access
+Apply basic cybersecurity best practices
+## Remote Support & Tools
+Provide remote assistance using tools like Remote Desktop and TeamViewer. zoom, teams, etc.
+Log and track issues using ticketing systems
+## Professional & Soft Skills
+Strong communication and customer service skills
+Ability to explain technical concepts in simple terms
+Time management, teamwork, and attention to detail
+Reliable, adaptable, and quick to learn new technologies
 
 ### Prerequisites
 - A GitHub account
