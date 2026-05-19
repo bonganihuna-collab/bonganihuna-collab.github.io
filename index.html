@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bongani Huna - Portfolio</title>
+    <title>Bongani Huna - Personal Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -11,45 +11,34 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <div class="nav-content">
-                <div class="logo">Bongani Huna</div>
-                <ul class="nav-links">
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+            <div class="logo">BH Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="hero" class="hero">
+    <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Hi, I'm Bongani Huna</h1>
-                <p class="hero-subtitle">Full Stack Developer & Creative Problem Solver</p>
-                <p class="hero-description">Building beautiful, functional web experiences with modern technologies</p>
-                <div class="hero-cta">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                </div>
-                <div class="hero-social">
-                    <a href="https://github.com/bonganihuna-collab" target="_blank" rel="noopener noreferrer" title="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://linkedin.com/in/bongani-huna" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://facebook.com/bongani-huna" target="_blank" rel="noopener noreferrer" title="Facebook">
-                        <i class="fab fa-facebook"></i>
-                    </a>
+                <img src="images/profile.jpg" alt="Bongani Huna" class="profile-picture">
+                <h1>Bongani Huna</h1>
+                <p class="tagline">Full Stack Developer | Tech Enthusiast | Problem Solver</p>
+                <p class="description">Welcome to my portfolio. I create elegant solutions to complex problems using modern web technologies.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
                 </div>
             </div>
         </div>
@@ -58,25 +47,16 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
+            <h2>About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>I'm a passionate full-stack developer with a strong foundation in web technologies. I specialize in creating responsive, user-friendly applications that solve real-world problems.</p>
-                    <p>I'm committed to continuous learning and staying updated with the latest technologies in the development landscape. When I'm not coding, you'll find me exploring new tech trends.</p>
-                    <div class="about-highlights">
-                        <div class="highlight">
-                            <h3>Problem Solver</h3>
-                            <p>Tackling complex challenges with elegant solutions</p>
-                        </div>
-                        <div class="highlight">
-                            <h3>Collaborative</h3>
-                            <p>Working effectively in team environments</p>
-                        </div>
-                        <div class="highlight">
-                            <h3>Detail Oriented</h3>
-                            <p>Delivering quality, polished work</p>
-                        </div>
-                    </div>
+                    <p>Hello! I'm Bongani, a passionate full-stack developer with a love for creating beautiful and functional web applications. With experience in both front-end and back-end development, I enjoy the entire process of turning ideas into reality.</p>
+                    <p>I'm continuously learning and staying up-to-date with the latest technologies and best practices in web development. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.</p>
+                    <p>My goal is to create impactful digital solutions that make a difference.</p>
+                    <a href="#" class="btn btn-primary" download>Download Resume</a>
+                </div>
+                <div class="about-image">
+                    <img src="images/profile.jpg" alt="About Bongani" class="about-picture">
                 </div>
             </div>
         </div>
@@ -85,58 +65,43 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
+            <h2>Featured Projects</h2>
             <div class="projects-grid">
-                <article class="project-card">
-                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
-                    <div class="project-info">
-                        <h3>E-Commerce Platform</h3>
-                        <p>A full-stack e-commerce solution with product catalog, shopping cart, and payment integration. Features user authentication and order management.</p>
-                        <div class="project-tags">
-                            <span class="tag">React</span>
-                            <span class="tag">Node.js</span>
-                            <span class="tag">MongoDB</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Project</a>
-                            <a href="https://github.com/bonganihuna-collab" class="project-link">GitHub</a>
-                        </div>
+                <div class="project-card">
+                    <img src="images/project1.jpg" alt="Project 1" class="project-image">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-featured e-commerce platform built with React and Node.js, featuring payment integration and user authentication.</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
                     </div>
-                </article>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
 
-                <article class="project-card">
-                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
-                    <div class="project-info">
-                        <h3>Task Management App</h3>
-                        <p>A collaborative task management application with real-time updates, team collaboration features, and progress tracking. Built with modern web technologies.</p>
-                        <div class="project-tags">
-                            <span class="tag">Vue.js</span>
-                            <span class="tag">Firebase</span>
-                            <span class="tag">Tailwind CSS</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Project</a>
-                            <a href="https://github.com/bonganihuna-collab" class="project-link">GitHub</a>
-                        </div>
+                <div class="project-card">
+                    <img src="images/project2.jpg" alt="Project 2" class="project-image">
+                    <h3>Task Management App</h3>
+                    <p>A collaborative task management application with real-time updates, built using Vue.js and Firebase.</p>
+                    <div class="project-tags">
+                        <span>Vue.js</span>
+                        <span>Firebase</span>
+                        <span>Tailwind CSS</span>
                     </div>
-                </article>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
 
-                <article class="project-card">
-                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
-                    <div class="project-info">
-                        <h3>Weather Dashboard</h3>
-                        <p>A responsive weather application featuring real-time weather data, forecast tracking, and location-based services. Includes beautiful data visualizations and animations.</p>
-                        <div class="project-tags">
-                            <span class="tag">JavaScript</span>
-                            <span class="tag">REST API</span>
-                            <span class="tag">D3.js</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Project</a>
-                            <a href="https://github.com/bonganihuna-collab" class="project-link">GitHub</a>
-                        </div>
+                <div class="project-card">
+                    <img src="images/project3.jpg" alt="Project 3" class="project-image">
+                    <h3>Weather Dashboard</h3>
+                    <p>A responsive weather application that provides real-time weather data and forecasts using APIs.</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>REST API</span>
+                        <span>CSS Grid</span>
                     </div>
-                </article>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
             </div>
         </div>
     </section>
@@ -144,41 +109,101 @@
     <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
-            <h2 class="section-title">Skills & Technologies</h2>
+            <h2>Skills & Technologies</h2>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3>Frontend Development</h3>
+                    <h3>Frontend</h3>
                     <ul>
                         <li>HTML5 & CSS3</li>
                         <li>JavaScript (ES6+)</li>
-                        <li>React.js</li>
+                        <li>React</li>
                         <li>Vue.js</li>
                         <li>Responsive Design</li>
-                        <li>Tailwind CSS</li>
                     </ul>
                 </div>
                 <div class="skill-category">
-                    <h3>Backend Development</h3>
+                    <h3>Backend</h3>
                     <ul>
                         <li>Node.js</li>
                         <li>Express.js</li>
                         <li>Python</li>
                         <li>RESTful APIs</li>
-                        <li>Database Design</li>
-                        <li>Authentication & Security</li>
+                        <li>Authentication</li>
                     </ul>
                 </div>
                 <div class="skill-category">
-                    <h3>Tools & Platforms</h3>
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>MongoDB</li>
+                        <li>PostgreSQL</li>
+                        <li>Firebase</li>
+                        <li>SQL</li>
+                        <li>Data Modeling</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
                     <ul>
                         <li>Git & GitHub</li>
                         <li>Docker</li>
-                        <li>MongoDB & PostgreSQL</li>
-                        <li>Firebase</li>
                         <li>VS Code</li>
-                        <li>Figma & Design</li>
+                        <li>Figma</li>
+                        <li>Agile Methodologies</li>
                     </ul>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Latest Blog Posts</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <h3>Getting Started with React Hooks</h3>
+                    <p class="blog-date">May 15, 2024</p>
+                    <p>An introduction to React Hooks and how they can simplify your component logic.</p>
+                    <a href="blog/post1.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-card">
+                    <h3>Understanding Asynchronous JavaScript</h3>
+                    <p class="blog-date">May 10, 2024</p>
+                    <p>Deep dive into promises, async/await, and how to handle asynchronous operations efficiently.</p>
+                    <a href="blog/post1.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-card">
+                    <h3>Building Scalable APIs with Node.js</h3>
+                    <p class="blog-date">May 5, 2024</p>
+                    <p>Best practices for designing and building scalable RESTful APIs using Node.js and Express.</p>
+                    <a href="blog/post1.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-card">
+                    <h3>Web Performance Optimization Tips</h3>
+                    <p class="blog-date">April 28, 2024</p>
+                    <p>Learn essential techniques to optimize your website's performance and improve user experience.</p>
+                    <a href="blog/post1.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-card">
+                    <h3>CSS Grid vs Flexbox: When to Use Each</h3>
+                    <p class="blog-date">April 20, 2024</p>
+                    <p>A comprehensive guide to understanding the differences and use cases for CSS Grid and Flexbox.</p>
+                    <a href="blog/post1.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-card">
+                    <h3>Docker for Developers: A Beginner's Guide</h3>
+                    <p class="blog-date">April 15, 2024</p>
+                    <p>Introduction to Docker and containerization, making development and deployment easier.</p>
+                    <a href="blog/post1.html" class="read-more">Read More →</a>
+                </article>
+            </div>
+            <div class="blog-cta">
+                <a href="blog/index.html" class="btn btn-primary">View All Posts</a>
             </div>
         </div>
     </section>
@@ -186,29 +211,39 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <p class="contact-subtitle">I'm always interested in hearing about new projects, opportunities, and ideas. Feel free to reach out!</p>
+            <h2>Get In Touch</h2>
+            <p class="contact-intro">Have a question or want to work together? Feel free to reach out!</p>
+            
             <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+
                 <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h3>Email</h3>
-                            <a href="mailto:bongani.huna@gmail.com">bongani.huna@gmail.com</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h3>Location</h3>
-                            <p>Johannesburg, South Africa</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h3>Phone</h3>
-                            <a href="tel:+27123456789">+27 (012) 345-6789</a>
+                    <h3>Contact Information</h3>
+                    <p><strong>Email:</strong> <a href="mailto:bongani@example.com">bongani@example.com</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:+1234567890">+1 (234) 567-8900</a></p>
+                    <p><strong>Location:</strong> Your City, Country</p>
+                    
+                    <div class="social-links">
+                        <h4>Follow Me</h4>
+                        <div class="socials">
+                            <a href="https://github.com" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
@@ -219,12 +254,8 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Bongani Huna. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="https://github.com/bonganihuna-collab" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="https://linkedin.com/in/bongani-huna" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="https://facebook.com/bongani-huna" target="_blank" rel="noopener noreferrer">Facebook</a>
-            </div>
+            <p>&copy; 2024 Bongani Huna. All rights reserved.</p>
+            <p>Crafted with <span class="heart">❤️</span> using HTML, CSS & JavaScript</p>
         </div>
     </footer>
 

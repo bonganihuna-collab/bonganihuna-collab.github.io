@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Bongani Huna</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .blog-archive {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .blog-post {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+            border-left: 4px solid var(--primary-color);
+            transition: var(--transition);
+        }
+        
+        .blog-post:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .blog-post h3 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+        
+        .blog-post .blog-meta {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+            color: #9ca3af;
+        }
+        
+        .blog-post p {
+            color: #6b7280;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .read-more {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+            display: inline-block;
+        }
+        
+        .read-more:hover {
+            color: var(--secondary-color);
+            margin-right: 5px;
+        }
+        
+        .back-link {
+            margin-bottom: 30px;
+        }
+        
+        .back-link a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">BH Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#projects">Projects</a></li>
+                <li><a href="../index.html#skills">Skills</a></li>
+                <li><a href="index.html">Blog</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Archive -->
+    <section class="blog" style="padding-top: 40px;">
+        <div class="container">
+            <div class="back-link">
+                <a href="../index.html">← Back to Home</a>
+            </div>
+            
+            <h2>Blog Archive</h2>
+            
+            <div class="blog-archive">
+                <article class="blog-post">
+                    <h3>Getting Started with React Hooks</h3>
+                    <div class="blog-meta">
+                        <span>📅 May 15, 2024</span>
+                        <span>⏱️ 8 min read</span>
+                    </div>
+                    <p>An in-depth introduction to React Hooks and how they can simplify your component logic, improve code reusability, and make functional components more powerful.</p>
+                    <a href="post1.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-post">
+                    <h3>Understanding Asynchronous JavaScript</h3>
+                    <div class="blog-meta">
+                        <span>📅 May 10, 2024</span>
+                        <span>⏱️ 10 min read</span>
+                    </div>
+                    <p>Deep dive into promises, async/await, and how to handle asynchronous operations efficiently in JavaScript. Learn best practices and common pitfalls.</p>
+                    <a href="post1.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-post">
+                    <h3>Building Scalable APIs with Node.js</h3>
+                    <div class="blog-meta">
+                        <span>📅 May 5, 2024</span>
+                        <span>⏱️ 12 min read</span>
+                    </div>
+                    <p>Best practices for designing and building scalable RESTful APIs using Node.js and Express. Includes architecture patterns and performance optimization tips.</p>
+                    <a href="post1.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-post">
+                    <h3>Web Performance Optimization Tips</h3>
+                    <div class="blog-meta">
+                        <span>📅 April 28, 2024</span>
+                        <span>⏱️ 9 min read</span>
+                    </div>
+                    <p>Learn essential techniques to optimize your website's performance and improve user experience. Including lazy loading, caching, and minification strategies.</p>
+                    <a href="post1.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-post">
+                    <h3>CSS Grid vs Flexbox: When to Use Each</h3>
+                    <div class="blog-meta">
+                        <span>📅 April 20, 2024</span>
+                        <span>⏱️ 7 min read</span>
+                    </div>
+                    <p>A comprehensive guide to understanding the differences and use cases for CSS Grid and Flexbox. Learn when to use each and practical examples.</p>
+                    <a href="post1.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-post">
+                    <h3>Docker for Developers: A Beginner's Guide</h3>
+                    <div class="blog-meta">
+                        <span>📅 April 15, 2024</span>
+                        <span>⏱️ 11 min read</span>
+                    </div>
+                    <p>Introduction to Docker and containerization, making development and deployment easier. Learn the basics and how to containerize your applications.</p>
+                    <a href="post1.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-post">
+                    <h3>State Management in React: Context vs Redux</h3>
+                    <div class="blog-meta">
+                        <span>📅 April 8, 2024</span>
+                        <span>⏱️ 10 min read</span>
+                    </div>
+                    <p>Compare different state management approaches in React. Understand when to use Context API and when Redux is the better choice.</p>
+                    <a href="post1.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-post">
+                    <h3>RESTful API Design Best Practices</h3>
+                    <div class="blog-meta">
+                        <span>📅 April 1, 2024</span>
+                        <span>⏱️ 9 min read</span>
+                    </div>
+                    <p>Comprehensive guide to designing clean, maintainable, and scalable RESTful APIs. Learn naming conventions, versioning, and error handling.</p>
+                    <a href="post1.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-post">
+                    <h3>Introduction to TypeScript</h3>
+                    <div class="blog-meta">
+                        <span>📅 March 25, 2024</span>
+                        <span>⏱️ 8 min read</span>
+                    </div>
+                    <p>Get started with TypeScript and learn how static typing can improve your code quality and developer experience. Includes practical examples.</p>
+                    <a href="post1.html" class="read-more">Read More →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Bongani Huna. All rights reserved.</p>
+            <p>Crafted with <span class="heart">❤️</span> using HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
